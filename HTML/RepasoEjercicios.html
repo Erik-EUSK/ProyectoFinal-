@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Repaso Ejercicios</title>
+    <link href="../CSS/RepasoEjercicios.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="Encabezado">
+    <div id="Imagen1"><img src="../Imagenes/Mitologia-nordica.jpg" width="40" height="56" alt="Mitología Nórdica"></div> 
+    <p>Descubre la grandeza de la mitología nórdica: ¡Un legado de dioses y héroes que te fascinará!</p>
+    <img src="../Imagenes/Mitologia-nordica.jpg" width="40" height="56" alt="Mitología Nórdica">
+</div>
+<nav>
+    <a class="Menu" href="../index.html">Inicio</a>
+    <a class="Menu" href="Galeria.html">Galeria</a>
+    <a class="Menu" href="Formulario de Registro.html">Formulario de Registro</a>
+    <a class="Menu" href="RepasoEjercicios.html">Resumen de Ejercicios</a>
+</nav>
+<hr>
+<div class="container">
+    <div class="tabs">
+        <button class="tab-button" onclick="showTab('sinCSS')">Ejercicios sin CSS</button>
+        <button class="tab-button" onclick="showTab('conCSS')">Ejercicios con CSS</button>
+    </div>
+
+    <div id="sinCSS" class="tab-content">
+        <div class="ariketa">
+            <img src="../Imagenes/ejercicio4.png"  alt="Ejercicio 4">
+            <a class="Ejercicio5" href="Ejercicio5.html"><br>Ejercicio5</a>
+        </div>
+        <div class="ariketa">
+             <img src="../Imagenes/ejercicio11.png"  alt="Ejercicio 11" height="100px">
+            <a class="Ejercicio11" href="Ejercicio11.html"><br>Ejercicio11</a>
+        </div>
+        <div class="ariketa">
+             <img src="../Imagenes/ejercicio14.png"  alt="Ejercicio 14" height="100px">
+            <a class="Ejercicio11" href="Ejercicio14.html"><br>Ejercicio14</a>
+        </div>
+        <div class="ariketa">
+             <img src="../Imagenes/ejercicio17.png"  alt="Ejercicio 14" height="100px">
+            <a class="Ejercicio11" href="Ejercicio17.html"><br>Ejercicio17</a>
+        </div>
+    </div>
+
+    <div id="conCSS" class="tab-content" style="display:none;">
+        <div class="ariketa">
+           <img src="../Imagenes/ejercicio6.png"  alt="Ejercicio 6" height="100px">
+            <a class="Ejercicio6" href="Ejercicio6.html"><br>Ejercicio6</a>
+        </div>
+        <div class="ariketa">
+            <img src="../Imagenes/ejercicio9.png"  alt="Ejercicio 9" height="100px">
+            <a class="Ejercicio9" href="Ejercicio9.html"><br>Ejercicio9</a>
+        </div>
+        <div class="ariketa">
+         <img src="../Imagenes/ejercicio12.png"  alt="Ejercicio 9" height="100px">
+            <a class="Ejercicio9" href="Ejercicio12.html"><br>Ejercicio12</a>
+        </div>
+        <div class="ariketa">
+            <img src="../Imagenes/ejercicio7.png"  alt="Ejercicio 7" height="100px">
+            <a class="Ejercicio7" href="Ejercicio7.html"><br>Ejercicio7</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <h2>Para más información, suscríbete</h2>
+    <p>Recibe las últimas noticias y actualizaciones directamente en tu bandeja de entrada.</p>
+    <form action="/suscripcion" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+        <input type="submit" value="Suscribirse">
+    </form>
+</footer>
+
+<script>
+    function showTab(tabId) {
+        const tabs = document.getElementsByClassName('tab-content');
+        for (let i = 0; i < tabs.length; i++) {
+            tabs[i].style.display = 'none';
+        }
+        document.getElementById(tabId).style.display = 'block';
+    }
+</script>
+</body>
+</html>

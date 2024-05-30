@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Final - Mitología Nórdica</title>
+    <link href="../CSS/galeria.css" rel="stylesheet" type="text/css">
+    <style>
+        /* Asegura que todas las imágenes en la galería tengan el mismo tamaño */
+        #Galeria .Caja img {
+            width: 150px; /* Ajusta el ancho deseado */
+            height: 150px; /* Ajusta la altura deseada */
+            object-fit: cover; /* Mantiene la relación de aspecto */
+        }
+    </style>
+</head>
+<body>
+  <div id="Encabezado">
+        <div id="Imagen1"><img src="../Imagenes/Mitologia-nordica.jpg" width="40" height="56" alt="Mitología Nórdica"></div> 
+        <p>Descubre la grandeza de la mitología nórdica: ¡Un legado de dioses y héroes que te fascinará!</p>
+        <img src="../Imagenes/Mitologia-nordica.jpg" width="40" height="56" alt="Mitología Nórdica">
+    </div>
+    <nav>
+        <a class="Menu" href="../index.html">Inicio</a>
+        <a class="Menu" href="Galeria.html">Galeria</a>
+        <a class="Menu" href="Formulario de Registro.html">Formulario de Registro</a>
+        <a class="Menu" href="RepasoEjercicios.html">Resumen de Ejercicios</a>
+    </nav>
+    <hr>
+    <div id="Galeria">
+        <div class="Caja">
+            <img src="../Imagenes/Dios1.jpg" alt="Foto 1">
+        </div>
+        <div class="Caja">
+            <img src="../Imagenes/Diosa.jpg" alt="Foto 2">
+        </div>
+        <div class="Caja">
+            <img src="../Imagenes/serpiente.png" alt="Foto 3">
+        </div>
+        <div class="Caja">
+            <img src="../Imagenes/fenrir-lobo-e1699623227681.jpg" alt="Foto 5">
+        </div>
+        <div class="Caja">
+            <img src="../Imagenes/dios-nordico-ymir.jpg" alt="Foto 4">
+        </div>
+        <div class="Caja">
+            <img src="../Imagenes/lesser-known-gods-in-norse-mythology-1-864x486.webp" alt="Foto 6">
+        </div>
+    </div>
+    <div id="Pie">
+    </div>
+    <footer>
+        <h2>Para más información, suscríbete</h2>
+        <p>Recibe las últimas noticias y actualizaciones directamente en tu bandeja de entrada.</p>
+        <form action="/suscripcion" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+            <input type="submit" value="Suscribirse">
+        </form>
+    </footer>
+</body>
+</html>

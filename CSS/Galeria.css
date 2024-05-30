@@ -1,0 +1,43 @@
+#Galeria {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#Galeria img:hover {
+    transform: scale(1.05);
+
+}
+.caja {
+	height: 150px;
+	width: 150px;
+	border-radius: 5px;
+}
+#Encabezado {
+    background: url('../Imagenes/Mitologia-nordica.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+	#Encabezado p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

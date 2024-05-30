@@ -1,0 +1,122 @@
+body {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #E6E6FA;
+    padding: 10px 0;
+}
+
+.tab-button {
+    background-color: #E6E6FA;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.tab-button:hover {
+    background-color: #dcdcdc;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: #E6E6FA;
+    padding: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.ariketa {
+    text-align: center;
+    margin: 10px;
+}
+
+.ariketa img {
+    width: 100px;
+    height: auto;
+}
+
+.ariketa a {
+    display: block;
+    font-size: 1em;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+footer form {
+    display: inline-block;
+    text-align: left;
+}
+
+footer label {
+    display: block;
+    margin: 5px 0;
+}
+
+footer input[type="text"],
+footer input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+footer input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer input[type="submit"]:hover {
+    background-color: #555;
+}
+
+#Encabezado {
+    background: url('../Imagenes/Mitologia-nordica.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#Encabezado p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

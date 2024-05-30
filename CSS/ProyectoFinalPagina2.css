@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+#Encabezado {
+    background: url('../Imagenes/Mitologia-nordica.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#Encabezado p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#Contenido {
+    padding: 20px;
+}
+
+#Contenido h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#Contenido p, #Contenido ul {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+#Contenido ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#Pie {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+footer form {
+    display: inline-block;
+    text-align: left;
+}
+
+footer label {
+    display: block;
+    margin: 5px 0;
+}
+
+footer input[type="text"], footer input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+footer input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer input[type="submit"]:hover {
+    background-color: #555;
+}

@@ -1,0 +1,36 @@
+p {
+	color : 005ACD;
+	
+	font-weight : 18;
+	
+	font-weight : italic;
+}
+h2 {
+	text-align : center;
+	
+	color : red;
+	
+	font-weight : 12;
+	
+	font-weight: bold;
+	
+}#Parrafo {
+	font-weight: 12;
+	
+	text-align: center;
+	
+	color: yellow;
+	
+}
+#Frase {
+	font-weight: 14;
+	
+	text-align: center;
+	
+	color: green;
+}
+#Titulo {
+	color: FF47F1;
+	
+}
+

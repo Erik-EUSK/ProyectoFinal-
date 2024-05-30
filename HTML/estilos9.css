@@ -1,0 +1,28 @@
+body {
+	
+	background-color : black;
+	
+}
+
+ol {
+	
+	color : blue;
+	
+	font-weight : bold;
+	
+}
+
+ul {
+	
+	font-size : 25;
+	
+	font-weight : italic;
+}
+
+P {
+	color : white;
+	
+	font-weight : bold;
+	
+	text-align : center;
+}
